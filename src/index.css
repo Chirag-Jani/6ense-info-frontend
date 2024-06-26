@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+};
+
+.textBlack {
+  color: #101013;
+}
+.textBlack-second {
+  color: #1b1b1f;
+}
+
+.textBlue {
+  color: #6254ff;
+}
+.textWhite {
+  color: rgb(249 250 251);
+}
+
+.bgBlack {
+  background-color: #101013;
+}
+
+.bgBlue {
+  background-color: #6254ff;
+}
+
+.remove-arrow::-webkit-inner-spin-button,
+.remove-arrow::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.remove-arrow {
+  -moz-appearance: textfield;
+}
+
+.list-items {
+  width: 200px !important;
+};
+
+/* remove scrollbar */
+
+/* @import 'tailwindcss/tailwind.css'; */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+};
+
+
+/* apex donet chart */
+
+.apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center, .apexcharts-legend.apx-legend-position-top.apexcharts-align-center {
+  justify-content: center;
+  display: none;
+}
+
+
+.apexcharts-legend.apx-legend-position-bottom, .apexcharts-legend.apx-legend-position-top {
+  display: none;
+  flex-wrap: wrap;
+}
+
+.apexcharts-legend {
+  display: flex;
+  overflow: auto;
+  padding: 0 10px;
+  display: none;
+}
